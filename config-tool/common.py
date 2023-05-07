@@ -78,6 +78,9 @@ ops = {
     "BITWISE_OR": 24,
     "BITWISE_AND": 25,
     "BITWISE_NOT": 26,
+    "LN": 27,
+    "LOG": 28,
+    "LOG10":29,
 }
 
 opcodes = {v: k for k, v in ops.items()}

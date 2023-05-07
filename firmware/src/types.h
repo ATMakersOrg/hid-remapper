@@ -68,6 +68,9 @@ enum class Op : int8_t {
     BITWISE_OR = 24,
     BITWISE_AND = 25,
     BITWISE_NOT = 26,
+    LN = 27,
+    LOG = 28,
+    LOG10 = 29
 };
 
 struct expr_elem_t {

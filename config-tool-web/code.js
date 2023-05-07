@@ -72,6 +72,9 @@ const ops = {
     "BITWISE_OR": 24,
     "BITWISE_AND": 25,
     "BITWISE_NOT": 26,
+    "LN": 27,
+    "LOG": 28,
+    "LOG10":29,
 }
 
 const opcodes = Object.fromEntries(Object.entries(ops).map(([key, value]) => [value, key]));
